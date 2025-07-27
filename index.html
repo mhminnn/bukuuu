@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>How to Grow Taller</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- Bintang -->
+  <div class="stars"></div>
+
+  <!-- Wrapper Buku -->
+  <div class="book-wrapper">
+    <div class="book" id="book">
+      <div class="spine"></div>
+
+      <!-- Cover -->
+      <div class="cover" id="cover">
+        <div class="cover-front">
+          <h1>CARA CEPAT<br>TUMBUH<br>TINGGI</h1>
+          <img src="gift/Gift_buku.jpeg" alt="cute gif" class="cover-gif"/>
+        </div>
+        <div class="cover-back">
+          <img src="gift/Ketawa2.jpeg" alt="back gif" class="back-gif"/>
+        </div>
+      </div>
+
+      <!-- Isi halaman -->
+      <div class="page page-1 active">
+        <h1 class="funny-text">NDAKK BISAA.<br> LAMBAT. AWOKAWOK
+          <br>
+          Mending makan
+        </h1>
+        <img src="gift/Gift2.gif" alt="page gif" class="page-gif"/>
+      </div>
+
+      <!-- Halaman 2 -->
+      <div class="page page-2">
+        <div class="page-content">
+          <!-- Konten halaman 2 - siap untuk diisi -->
+          <h1 class="page-title">Halaman 2</h1>
+          <p class="page-text">Konten akan diisi di sini...</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Tombol Kontrol -->
+    <div class="controls">
+      <button id="openBookBtn">Buka Buku 📖</button>
+      <button id="closeBookBtn">Tutup Buku 🔙</button>
+    </div>
+
+    <!-- Navigasi Halaman (hanya muncul saat buku terbuka) -->
+    <div class="page-navigation" id="pageNavigation">
+      <button id="prevPageBtn">⬅️ Halaman Sebelumnya</button>
+      <span id="pageIndicator">Halaman 1 dari 2</span>
+      <button id="nextPageBtn">Halaman Selanjutnya ➡️</button>
+    </div>
+  </div>
+
+  <!-- Musik -->
+  <audio id="backgroundMusic" src="mp3/lagu.mp3" preload="auto" loop></audio>
+
+  <script src="script.js"></script>
+</body>
+</html>
